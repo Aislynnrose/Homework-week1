@@ -7,26 +7,10 @@
 body {
     background-color: #d9dcd6;
 }
-li {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-ul {
-    list-style-type: none;
-    text-align:center;
-    display: inline-flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    float: right;
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 15px;
-    border: 0 10 0 10;
-    font-size: 18px;
-}
 
 .header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     background-color: #2a607c;
     color: #ffffff;
 }
@@ -38,6 +22,24 @@ ul {
 
 .seo {
     color: #d9dcd6;
+}
+
+ul {
+    list-style-type: none;
+    text-align:center;
+    display: inline-flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    float: right;
+    margin-left: 30px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: -webkit-match-parent;
 }
 
 a {
@@ -56,6 +58,28 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.section img {
+    max-height: 200px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .float-left {
@@ -88,34 +112,10 @@ p {
     max-width: 150px;
 }
 
-.section {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.section img {
-    max-height: 200px;
-}
-
-.sectiom h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 .footer, .footer h2 {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
     font-size: 20px;
 }
